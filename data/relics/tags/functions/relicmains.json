@@ -3,21 +3,15 @@
 		"relics:carrot_check",
 		"relics:creeper_bow/tick",
 		"relics:platform_wand/tick",
-		"relics:heart_of_fire/tick",
-		"relics:the_looking_glass/tick",
-		"relics:solar_panel/solar_panel",
 		"relics:rocket_boots/rocket_boots",
 		"relics:sub_zero_slippers/tick",
 		"relics:geolocator/geolocator",
-		"relics:emergency_radio/emergency_radio",
 		"relics:the_turtle/tick",
 		"relics:pair_of_pies/tick",
 		"relics:the_thinking_cap/tick",
 		"relics:the_mining_helmet/tick",
-		"relics:a_balloon/tick",
 		"relics:explosive_crossbow/tick",
 		"relics:the_complete_chainmail/tick",
-		"relics:your_own_shadow/tick",
 		"relics:tick_reset"
 	]
 }
