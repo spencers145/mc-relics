@@ -32,6 +32,7 @@
 		"relics:the_complete_chainmail/tick",
 		"relics:powder_ice/tick",
 		"relics:your_own_shadow/tick",
+		"relics:snail_empire/tick",
 		"relics:tick_reset"
 	]
 }

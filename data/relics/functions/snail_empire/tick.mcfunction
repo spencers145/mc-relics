@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:snailempire] run function relics:snail_empire/snempire
