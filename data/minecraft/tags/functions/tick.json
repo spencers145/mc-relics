@@ -3,6 +3,7 @@
 		"relicutil:tagmobs",
 		"relicutil:mark_hurt",
 		"relicutil:dropoff/relicdropcheck",
-		"#relics:relicmains"
+		"relicutil:runtickcount",
+		"relics:relicmains"
 	]
 }
