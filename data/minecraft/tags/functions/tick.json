@@ -5,6 +5,5 @@
 		"relicutil:dropoff/relicdropcheck",
 		"relicutil:runtickcount",
 		"relics:relictick",
-		"#relics:relicmains"
 	]
 }
