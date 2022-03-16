@@ -1,5 +1,8 @@
 {
 	"values":[
+		"relics:your_own_shadow/tick",
+		"relics:the_looking_glass/tick",
+		"relics:solar_panel/solar_panel",
 		"relics:beacon_of_life/tick",
 		"relics:magic_carpet/tick",
 		"relics:the_magic_coal/the_magic_coal"

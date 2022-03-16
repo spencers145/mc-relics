@@ -1,5 +1,9 @@
 {
 	"values":[
+		"relics:your_own_shadow/tick",
+		"relics:a_balloon/tick",
+		"relics:the_looking_glass/tick",
+		"relics:solar_panel/solar_panel",
 		"relics:the_pickle/the_pickle",
 		"relics:the_magic_coal/the_magic_coal"
 	]
