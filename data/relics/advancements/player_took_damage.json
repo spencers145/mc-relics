@@ -1,0 +1,22 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "gothurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gothurt"
+        ]
+    ],
+    "rewards": {
+        "function": "relics:solar_panel/took_damage"
+    },
+    "parent": "relics:root"
+}

@@ -1,0 +1,1 @@
+execute as @a[scores={carpet=1}] run function relics:magic_carpet/float

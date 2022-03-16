@@ -1,0 +1,2 @@
+execute as @a[advancements={relics:player_took_damage=true},scores={solarPanel=95..}] run function relicutil:kamikaze
+advancement revoke @a[advancements={relics:player_took_damage=true}] only relics:player_took_damage

@@ -1,0 +1,1 @@
+execute as @s[scores={solarPanel=..99}] run function relics:solar_panel/real_charge 

@@ -1,0 +1,2 @@
+execute as @a[predicate=!relics:yourownshadow] run function relics:your_own_shadow/check_player_needs_deactivate
+execute as @a[predicate=relics:yourownshadow] at @s run function relics:your_own_shadow/player_tick

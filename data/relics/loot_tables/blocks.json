@@ -1,0 +1,503 @@
+{
+    "pools": [
+      {
+        "rolls": {
+            "min": 3,
+            "max": 4
+        },
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:bookshelf",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 12,
+                      "max": 24
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 6,
+                "name": "minecraft:tnt",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 10,
+                      "max": 16
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:oak_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:birch_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:dark_oak_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:spruce_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:jungle_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:acacia_log",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:cobblestone",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 48,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:granite",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:diorite",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:tuff",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:cobbled_deepslate",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:dirt",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 56,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:calcite",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:obsidian",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 10,
+                      "max": 14
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 7,
+                "name": "minecraft:glass",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 9,
+                "name": "minecraft:stone_bricks",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 8,
+                "name": "minecraft:coal_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 4,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 7,
+                "name": "minecraft:raw_iron_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 6,
+                "name": "minecraft:raw_gold_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 2,
+                      "max": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 7,
+                "name": "minecraft:raw_copper_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 7,
+                "name": "minecraft:glowstone",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 8,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 9,
+                "name": "minecraft:bricks",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 3,
+                "name": "minecraft:ice",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 24,
+                      "max": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:packed_ice",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:blue_ice",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 32,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:dried_kelp_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 9,
+                "name": "minecraft:white_wool",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 40
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 6,
+                "name": "minecraft:grass",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 56,
+                      "max": 64
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:sponge",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 12,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:amethyst_block",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 12,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:melon",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:pumpkin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:anvil",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }
+  

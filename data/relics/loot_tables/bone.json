@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 12,
+            "name": "relics:somepotions"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 8,
+            "name": "relics:disc"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "relics:egg"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 16,
+            "name": "relics:food"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 15,
+            "name": "relics:blocks"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "relics:armor"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "relics:stuff"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 14,
+            "name": "relics:lootcrate"
+          }
+        ]
+      }
+    ]
+  }
+  

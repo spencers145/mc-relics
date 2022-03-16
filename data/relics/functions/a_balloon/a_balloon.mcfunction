@@ -1,0 +1,1 @@
+give @s popped_chorus_fruit{display:{Name:'[{"text":"A ","italic":false,"color":"white","bold":true},{"text":"Balloon","color":"dark_red"}]',Lore:['[{"text":"Helium is weird.","italic":false}]','[{"text":"","italic":false}]','[{"text":"- hold to float","italic":false,"color":"light_purple"}]']},aBalloon:1b,relic:1b} 1

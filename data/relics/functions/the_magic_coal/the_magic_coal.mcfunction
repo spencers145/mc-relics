@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:magiccoal/magiccoal] run function relics:the_magic_coal/give_stuff

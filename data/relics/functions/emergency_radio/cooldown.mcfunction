@@ -1,0 +1,1 @@
+tellraw @s "Cooldown active. Can't call for backup."

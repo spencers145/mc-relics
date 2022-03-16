@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:subzeroslippers] at @s run function relics:sub_zero_slippers/tick_checks

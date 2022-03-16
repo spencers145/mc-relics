@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "dealtDamage": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "dealt": {
+                        "min": 5,
+                        "max": 99
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dealtDamage"
+        ]
+    ],
+    "rewards": {
+        "function": "relics:combo_breaker/combo_breaker_add"
+    },
+    "parent": "relics:root"
+}

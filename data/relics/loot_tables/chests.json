@@ -1,0 +1,95 @@
+{
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/desert_pyramid"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/shipwreck_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 13,
+            "name": "minecraft:chests/stronghold_corridor"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/stronghold_library"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 12,
+            "name": "minecraft:chests/stronghold_crossing"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/abandoned_mineshaft"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 7,
+            "name": "minecraft:chests/buried_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 8,
+            "name": "minecraft:chests/nether_bridge"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "minecraft:chests/underwater_ruin_big"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "minecraft:chests/simple_dungeon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/woodland_mansion"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 10,
+            "name": "minecraft:chests/ruined_portal"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/bastion_bridge"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/bastion_hoglin_stable"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "minecraft:chests/bastion_other"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "minecraft:chests/bastion_treasure"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "minecraft:chests/end_city_treasure"
+          }
+        ]
+      }
+    ]
+  }
+  

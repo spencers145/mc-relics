@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:combobreaker] run scoreboard players set @s comboBreaker 0

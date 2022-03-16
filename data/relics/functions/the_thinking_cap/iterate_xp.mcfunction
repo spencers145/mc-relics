@@ -1,0 +1,1 @@
+execute as @e[type=experience_orb,distance=..8,tag=!duped] at @s run function relics:the_thinking_cap/dupe_xp

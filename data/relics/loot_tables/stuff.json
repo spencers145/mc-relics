@@ -1,0 +1,164 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:gold_nugget",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 5120,
+                      "max": 10240
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:player_head"
+              },
+            {
+                "type": "minecraft:item",
+                "weight": 12,
+                "name": "minecraft:arrow",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 24,
+                      "max": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:map",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 12,
+                "name": "minecraft:name_tag"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 16,
+                "name": "minecraft:experience_bottle",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 14,
+                      "max": 28
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 16,
+                "name": "minecraft:ender_pearl",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 6,
+                      "max": 12
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:pufferfish_bucket"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:netherite_scrap",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 3,
+                      "max": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 2,
+                "name": "minecraft:snowball",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 24,
+                      "max": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 10,
+                "name": "minecraft:gunpowder",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 10,
+                "name": "minecraft:bone",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 16,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 6,
+                "name": "minecraft:diamond",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 2,
+                      "max": 5
+                    }
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+}

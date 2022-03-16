@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:goodbone] run function relics:good_bone/roll_the_dice

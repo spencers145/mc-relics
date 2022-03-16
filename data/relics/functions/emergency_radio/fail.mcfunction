@@ -1,0 +1,1 @@
+tellraw @s "Failed to call for backup. Perhaps they are busy, or there's a cooldown."

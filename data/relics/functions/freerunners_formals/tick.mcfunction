@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:freerunnersformals,predicate=relicutil:onground] run function relics:freerunners_formals/player_tick

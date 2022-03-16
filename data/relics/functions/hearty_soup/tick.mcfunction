@@ -1,0 +1,1 @@
+execute as @a run function relics:hearty_soup/check

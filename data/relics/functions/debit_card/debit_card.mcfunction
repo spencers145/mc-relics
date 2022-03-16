@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{tag:{debitCard:1b}}}] run function relics:debit_card/show_money

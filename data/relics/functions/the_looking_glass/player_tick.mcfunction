@@ -1,0 +1,2 @@
+execute as @s[predicate=relicutil:sneaking] at @s run function relics:the_looking_glass/glow
+execute as @s[predicate=!relicutil:sneaking,scores={lookingGlass=1}] at @s run function relics:the_looking_glass/deactivate

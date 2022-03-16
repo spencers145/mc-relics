@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:fortuneapple] run function relics:fortune_apple/player_tick

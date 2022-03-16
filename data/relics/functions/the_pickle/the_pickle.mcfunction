@@ -1,0 +1,1 @@
+execute as @a[predicate=relics:thepickle] at @s if block ~ ~ ~ water run function relics:the_pickle/pickle_effect

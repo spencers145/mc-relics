@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:cookie",
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 5,
+                    "max": 8
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:honey_bottle",
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 2,
+                    "max": 3
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:pumpkin_pie",
+                "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                    "min": 2,
+                    "max": 3
+                    }
+                }
+                ]
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:cake"
+            }
+        ]
+      }
+    ]
+}

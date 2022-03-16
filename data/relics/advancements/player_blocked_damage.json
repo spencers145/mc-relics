@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "blockedDamage": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true
+                    }
+                }
+            }
+    },
+    "requirements": [
+        [
+            "blockedDamage"
+        ]
+    ],
+    "rewards": {
+        "function": "relics:the_ward/on_got_hit"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "gothurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {
+                        "nbt": "{Tags:[\"undead\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "gothurt"
+        ]
+    ],
+    "rewards": {
+        "function": "relics:zom_b_gone/removeadv"
+    },
+    "parent": "relics:root"
+}

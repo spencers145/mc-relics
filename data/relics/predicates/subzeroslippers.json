@@ -1,0 +1,12 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{Inventory:[{tag:{subZeroSlippers:1b},Slot:100b}]}"
+			}
+		}
+	]
+}

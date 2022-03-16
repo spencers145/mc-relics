@@ -1,0 +1,3 @@
+execute as @s[scores={platformWand=1}] run function relics:platform_wand/on_checks
+execute as @s[scores={platformWand=0,platformScore=..-2}] run title @s actionbar [{"text":"Cooldown: ","color":"white"},{"score":{"name":"@s","objective":"platformScore"},"color":"dark_red"}]
+execute as @s[scores={platformWand=0,platformScore=-1}] run title @s actionbar [{"text":"Cooldown: ","color":"white"},{"text":"None","color":"white"}]

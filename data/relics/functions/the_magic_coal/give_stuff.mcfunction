@@ -1,0 +1,14 @@
+execute as @s[predicate=relics:magiccoal/single/hastorch,predicate=!relics:magiccoal/stack/has64torch] run give @s torch
+execute as @s[predicate=relics:magiccoal/single/haslantern,predicate=!relics:magiccoal/stack/has64lantern] run give @s lantern
+execute as @s[predicate=relics:magiccoal/single/hassoultorch,predicate=!relics:magiccoal/stack/has64soultorch] run give @s soul_torch
+execute as @s[predicate=relics:magiccoal/single/hassoullantern,predicate=!relics:magiccoal/stack/has64soullantern] run give @s soul_lantern
+execute as @s[predicate=relics:magiccoal/single/hascampfire,predicate=!relics:magiccoal/stack/has64campfire] run give @s campfire
+execute as @s[predicate=relics:magiccoal/single/hassoulcampfire,predicate=!relics:magiccoal/stack/has64soulcampfire] run give @s soul_campfire
+execute as @s[predicate=relics:magiccoal/single/hasshroomlight,predicate=!relics:magiccoal/stack/has64shroomlight] run give @s shroomlight
+execute as @s[predicate=relics:magiccoal/single/hasredstonelamp,predicate=!relics:magiccoal/stack/has64redstonelamp] run give @s redstone_lamp
+execute as @s[predicate=relics:magiccoal/single/hasredstonetorch,predicate=!relics:magiccoal/stack/has64redstonetorch] run give @s redstone_torch
+execute as @s[predicate=relics:magiccoal/single/hasendrod,predicate=!relics:magiccoal/stack/has64endrod] run give @s end_rod
+execute as @s[predicate=relics:magiccoal/single/hasseapickle,predicate=!relics:magiccoal/stack/has64seapickle] run give @s sea_pickle
+execute as @s[predicate=relics:magiccoal/single/hassealantern,predicate=!relics:magiccoal/stack/has64sealantern] run give @s sea_lantern
+execute as @s[predicate=relics:magiccoal/single/hasjackolantern,predicate=!relics:magiccoal/stack/has64jackolantern] run give @s jack_o_lantern
+execute as @s[predicate=relics:magiccoal/single/hascandle,predicate=!relics:magiccoal/stack/has64candle] run give @s candle

@@ -1,0 +1,2 @@
+execute as @a at @s if entity @s[predicate=relics:zombgone,advancements={relics:undead_hit_player=true}] run function relics:zom_b_gone/damageattackers
+advancement revoke @s only relics:undead_hit_player
