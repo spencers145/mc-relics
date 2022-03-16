@@ -4,6 +4,6 @@
 		"relicutil:mark_hurt",
 		"relicutil:dropoff/relicdropcheck",
 		"relicutil:runtickcount",
-		"relics:relictick",
+		"relics:relictick"
 	]
 }
