@@ -1,7 +1,6 @@
 {
 	"values":[
-		"relicutil:tagmobs",
-		"relicutil:mark_hurt",
+		"relicutil:mark_hostile",
 		"relicutil:dropoff/relicdropcheck",
 		"relicutil:runtickcount",
 		"relics:relictick"

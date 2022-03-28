@@ -9,6 +9,7 @@ execute if score global tickcount matches 7 run function #relics:twentysplit/7
 execute if score global tickcount matches 8 run function #relics:twentysplit/8
 execute if score global tickcount matches 9 run function #relics:twentysplit/9
 execute if score global tickcount matches 10 run function #relics:twentysplit/10
+execute if score global tickcount matches 10 run function relicutil:mark_undead
 execute if score global tickcount matches 11 run function #relics:twentysplit/11
 execute if score global tickcount matches 12 run function #relics:twentysplit/12
 execute if score global tickcount matches 13 run function #relics:twentysplit/13
