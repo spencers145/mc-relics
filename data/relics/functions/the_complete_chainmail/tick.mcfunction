@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:completechainmail] at @s positioned ~ ~1 ~ as @e[type=#relicutil:projectile] run function relics:the_complete_chainmail/tick_projectile

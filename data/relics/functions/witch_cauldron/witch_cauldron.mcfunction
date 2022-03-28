@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:witchcauldron] run function relics:witch_cauldron/roll_the_dice

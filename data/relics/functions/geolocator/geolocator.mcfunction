@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:geolocator] at @s run function relics:geolocator/geolocate

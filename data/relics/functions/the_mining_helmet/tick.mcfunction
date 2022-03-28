@@ -1,2 +1,0 @@
-execute as @e[type=marker,tag=mininglight] at @s run function relics:the_mining_helmet/kill_light
-execute as @a[predicate=relics:themininghelmet] at @s run function relics:the_mining_helmet/mining_light

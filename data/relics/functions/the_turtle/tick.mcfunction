@@ -1,2 +1,0 @@
-execute as @a[predicate=relics:theturtle,predicate=relicutil:sneaking] at @s run function relics:the_turtle/activate
-execute as @a[scores={turtle=1},predicate=!relicutil:sneaking] at @s run function relics:the_turtle/deactivate

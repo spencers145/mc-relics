@@ -1,2 +1,0 @@
-execute as @a[predicate=relics:lookingglass] run function relics:the_looking_glass/player_tick
-execute as @a[scores={lookingGlass=1},predicate=!relics:lookingglass] at @s run function relics:the_looking_glass/deactivate

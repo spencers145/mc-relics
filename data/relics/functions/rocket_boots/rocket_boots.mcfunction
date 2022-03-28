@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:rocketboots] at @s run function relics:rocket_boots/rocket_boots_tick

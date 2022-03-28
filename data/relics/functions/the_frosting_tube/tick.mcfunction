@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:frostingtube] run function relics:the_frosting_tube/player_tick

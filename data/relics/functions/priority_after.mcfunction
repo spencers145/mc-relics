@@ -1,0 +1,1 @@
+execute as @e[tag=belongstotheempire] run function relics:pirate_empire/count

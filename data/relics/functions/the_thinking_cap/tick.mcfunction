@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:thethinkingcap] at @s run function relics:the_thinking_cap/iterate_xp

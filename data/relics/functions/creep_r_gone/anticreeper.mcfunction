@@ -1,1 +1,0 @@
-execute as @a[predicate=relics:creeprgone] run function relics:creep_r_gone/tick
