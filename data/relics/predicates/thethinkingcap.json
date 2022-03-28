@@ -1,12 +1,12 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Inventory:[{tag:{theThinkingCap:1b},Slot:103b}]}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"head": {
+		  "nbt": "{tag:{theThinkingCap:1b}}"
 		}
-	]
-}
+	  }
+	}
+  }
+  

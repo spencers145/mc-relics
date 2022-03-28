@@ -1,12 +1,14 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Inventory:[{id:'minecraft:gunpowder',Slot:-106b}]}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"offhand": {
+		  "items": [
+			"minecraft:gunpowder"
+		  ]
 		}
-	]
-}
+	  }
+	}
+  }
+  

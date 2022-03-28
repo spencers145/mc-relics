@@ -1,12 +1,12 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Inventory:[{tag:{aBalloon:1b},Slot:-106b}]}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"offhand": {
+		  "nbt": "{tag:{aBalloon:1b}}"
 		}
-	]
-}
+	  }
+	}
+  }
+  

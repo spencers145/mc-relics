@@ -1,12 +1,12 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{Inventory:[{tag:{subZeroSlippers:1b},Slot:100b}]}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"feet": {
+		  "nbt": "{tag:{subZeroSlippers:1b}}"
 		}
-	]
-}
+	  }
+	}
+  }
+  

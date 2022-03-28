@@ -1,12 +1,12 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{SelectedItem:{tag:{aBalloon:1b}}}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"mainhand": {
+		  "nbt": "{tag:{aBalloon:1b}}"
 		}
-	]
-}
+	  }
+	}
+  }
+  
