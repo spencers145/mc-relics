@@ -1,2 +1,3 @@
 execute as @a[predicate=relics:lovelyrose,gamemode=survival] at @s as @a[predicate=relics:lovelyrose,distance=0.1..8,nbt=!{ActiveEffects:[{Id:10b,Amplifier:2b}]},gamemode=survival] run effect give @s regeneration 1 2 false
-execute as @a[predicate=relics:lovelyrose,gamemode=survival] at @s as @a[predicate=relics:lovelyrose,distance=0.1..8,gamemode=survival] run function relics:lovely_rose/particle
+execute as @a[predicate=relics:lovelyrose,gamemode=survival] at @s as @a[predicate=relics:lovelyrose,distance=0.1..8,gamemode=survival] run scoreboard players add @s lovelyParticleTimer 1
+execute as @a[scores={lovelyParticleTimer=5..}] at @s run function relics:lovely_rose/particle
