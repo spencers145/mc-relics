@@ -1,0 +1,1 @@
+execute as @e[type=#relicutil:hostile] run team join hostile @s
