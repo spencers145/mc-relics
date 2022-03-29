@@ -3,7 +3,7 @@
 		"relics:carrot_check",
 		"relics:creeper_bow/tick",
 		"relics:platform_wand/tick",
-		"relics:rocket_boots/rocket_boots",
+		"relics:rocket_boots/tick",
 		"relics:sub_zero_slippers/tick",
 		"relics:geolocator/geolocator",
 		"relics:the_turtle/tick",
@@ -11,7 +11,6 @@
 		"relics:the_thinking_cap/tick",
 		"relics:the_mining_helmet/tick",
 		"relics:explosive_crossbow/tick",
-		"relics:the_complete_chainmail/tick",
-		"relics:tick_reset"
+		"relics:the_complete_chainmail/tick"
 	]
 }
