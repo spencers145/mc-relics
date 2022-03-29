@@ -1,4 +1,4 @@
-execute as @s[nbt={SelectedItem:{tag:{theButton:1b}}},nbt=!{ActiveEffects:[{Id:9b}]}] run function relics:the_button/the_button
+execute as @s[nbt={SelectedItem:{tag:{theButton:1b}}},nbt=!{ActiveEffects:[{Id:9b}]}] run function relics:the_button/press
 execute as @s[nbt={SelectedItem:{tag:{survivalStick:1b}}},name="base_4"] run gamemode survival @s
 execute as @s[nbt={SelectedItem:{tag:{survivalStick:1b}}},name="base_4"] run tp @s vhs_static
 execute as @s[nbt={SelectedItem:{tag:{survivalStick:1b}}},name="base_4"] run effect give @s instant_health 1 5

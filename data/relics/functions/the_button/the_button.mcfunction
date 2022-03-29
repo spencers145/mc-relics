@@ -1,5 +1,1 @@
-effect give @s nausea 7 0 true
-tag @s add teleportme
-execute at @s run playsound minecraft:block.wooden_button.click_on block @a
-execute at @s run playsound minecraft:block.portal.trigger player @s ~ ~ ~ 0.5
-schedule function relics:the_button/teleport 80t append
+give @s carrot_on_a_stick{Unbreakable:1,Damage:1,display:{Name:'[{"text":"The ","italic":false,"color":"gray","bold":true},{"text":"Button","color":"dark_red"}]',Lore:['[{"text":"Not a compass.","italic":false}]','[{"text":"","italic":false}]','[{"text":"- press to return home","italic":false,"color":"light_purple"}]']},theButton:1b,relic:1b} 1
