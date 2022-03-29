@@ -1,1 +1,1 @@
-execute as @a[predicate=relics:rocketboots] at @s run function relics:rocket_boots/rocket_boots_tick
+give @s iron_boots{Unbreakable:1,display:{Name:'[{"text":"Rocket ","italic":false,"color":"gold","bold":true},{"text":"Boots","color":"gray"}]',Lore:['[{"text":"Blast off!","italic":false}]','[{"text":"","italic":false}]','[{"text":"- sneak to charge","italic":false,"color":"light_purple"}]','[{"text":"- release to blast off","italic":false,"color":"light_purple"}]','[{"text":"- fall slow over pits","italic":false,"color":"light_purple"}]']},rocketBoots:1b,relic:1b} 1
