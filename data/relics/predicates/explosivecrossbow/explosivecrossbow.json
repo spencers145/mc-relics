@@ -1,12 +1,12 @@
 {
-	"condition": "alternative",
-	"terms": [
-		{
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-				"nbt": "{SelectedItem:{tag:{explosiveCrossbow:1b}}}"
-			}
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "equipment": {
+		"mainhand": {
+		  "nbt": "{explosiveCrossbow:1b}"
 		}
-	]
-}
+	  }
+	}
+  }
+  
