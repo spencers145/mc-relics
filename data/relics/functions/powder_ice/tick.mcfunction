@@ -1,1 +1,2 @@
-execute as @a[predicate=relics:powderice] at @s as @e[distance=0..5.5,predicate=relicutil:mobisnotonfire] at @s run function relics:powder_ice/entity_tick
+execute as @a store result score @s temp run clear @s light_blue_dye{powderIce:1b} 0
+execute as @a if score @s temp matches 1.. at @s as @e[distance=0..5.5,predicate=relicutil:mobisnotonfire] at @s run function relics:powder_ice/entity_tick
