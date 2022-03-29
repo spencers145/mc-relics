@@ -4,7 +4,7 @@
 	"predicate": {
 	  "equipment": {
 		"head": {
-		  "nbt": "{tag:{theTurtle:1b}}"
+		  "nbt": "{theTurtle:1b}"
 		}
 	  }
 	}

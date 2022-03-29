@@ -4,7 +4,7 @@
 	"predicate": {
 	  "equipment": {
 		"chest": {
-		  "nbt": "{tag:{heartOfFire:1b}}"
+		  "nbt": "{heartOfFire:1b}"
 		}
 	  }
 	}
