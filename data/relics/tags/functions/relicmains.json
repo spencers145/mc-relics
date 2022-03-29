@@ -11,7 +11,6 @@
 		"relics:the_thinking_cap/tick",
 		"relics:the_mining_helmet/tick",
 		"relics:explosive_crossbow/tick",
-		"relics:the_complete_chainmail/tick",
-		"relics:tick_reset"
+		"relics:the_complete_chainmail/tick"
 	]
 }
