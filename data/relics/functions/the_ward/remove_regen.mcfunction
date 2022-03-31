@@ -1,1 +1,1 @@
-execute as @a[predicate=relics:theward,predicate=relicutil:hasregen] run effect clear @s regeneration
+execute as @a[predicate=relics:theward] run effect clear @s regeneration
