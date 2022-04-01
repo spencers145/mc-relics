@@ -1,4 +1,4 @@
-xp add @s[scores={abs=1..}] -8
+xp add @s[scores={abs=1..}] -7
 execute at @s if entity @s[scores={abs=1..}] run playsound minecraft:entity.player.levelup block @a ~ ~ ~ 0.3 0.8
 effect clear @s[scores={abs=1..}] absorption
 effect give @s[scores={money=1..}] absorption 99999 0
