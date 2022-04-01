@@ -1,4 +1,1 @@
-execute as @s[scores={condenser=1}] run function relics:the_condenser/deactivate
-execute as @s[scores={money=20..,condenser=0}] run function relics:the_condenser/activate
-execute as @s[scores={money=..20,condenser=0}] at @s run playsound minecraft:item.bottle.empty block @a ~ ~ ~ 0.6 0.5
-scoreboard players set @a[scores={condenser=2}] condenser 0
+give @s carrot_on_a_stick{Unbreakable:1,Damage:3,display:{Name:'[{"text":"the ","italic":false,"color":"dark_gray","bold":true},{"text":"Condenser","color":"green"}]',Lore:['[{"text":"The latest in portable","italic":false}]','[{"text":"shield technology.","italic":false}]','[{"text":"","italic":false}]','[{"text":"- condense xp into","italic":false,"color":"light_purple"}]','[{"text":"a 2-heart shield","italic":false,"color":"light_purple"}]','[{"text":"- right click to toggle","italic":false,"color":"light_purple"}]']},Enchantments:[{}],relic:1b,theCondenser:1b} 1
