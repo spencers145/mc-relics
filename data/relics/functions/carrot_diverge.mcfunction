@@ -1,4 +1,5 @@
-execute as @s[nbt={SelectedItem:{tag:{theButton:1b}}},nbt=!{ActiveEffects:[{Id:9b}]}] run function relics:the_button/press
+execute as @s[nbt={Inventory:[{tag:{theButton:1b}, Slot:-106b}]}] unless entity @s[scores={altButtonTimer=1..}] run function relics:the_button/alt_press
+execute as @s[nbt={SelectedItem:{tag:{theButton:1b}}}] unless entity @s[scores={buttonTimer=1..}] run function relics:the_button/press
 execute as @s[nbt={SelectedItem:{tag:{platformWand:1b}}},scores={platformWand=1,platformScore=0..}] run function relics:platform_wand/platform_wand_deactivate
 execute as @s[nbt={SelectedItem:{tag:{platformWand:1b}}},scores={platformWand=0,platformScore=0..}] run function relics:platform_wand/platform_wand_activate
 execute as @s[nbt={SelectedItem:{tag:{capersCloak:1b}}},scores={capersCooldown=0}] run function relics:capers_cloak/capers_cloak
