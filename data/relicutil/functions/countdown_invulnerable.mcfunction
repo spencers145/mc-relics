@@ -1,0 +1,1 @@
+execute as @e[type=#relicutil:protect_from_explosion,scores={invTimer=1..}] run function relicutil:countdown_invulnerable_layer_2

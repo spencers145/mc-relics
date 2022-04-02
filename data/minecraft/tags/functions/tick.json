@@ -1,6 +1,7 @@
 {
 	"values":[
 		"relicutil:mark_hostile",
+		"relicutil:countdown_invulnerable",
 		"relicutil:dropoff/relicdropcheck",
 		"relicutil:runtickcount",
 		"relics:relictick"
