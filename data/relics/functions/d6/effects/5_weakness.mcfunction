@@ -1,0 +1,2 @@
+title @s title ["",{"text":"5 -","bold":true},{"text":" Weak ","bold":true,"color":"white"},{"text":"mobs","bold":true}]
+execute at @s as @e[type=#relicutil:mob,distance=0..25] run effect give @s weakness 30 4

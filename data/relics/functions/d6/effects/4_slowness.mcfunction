@@ -1,0 +1,2 @@
+title @s title ["",{"text":"4 -","bold":true},{"text":" Slow ","bold":true,"color":"blue"},{"text":"mobs","bold":true}]
+execute at @s as @e[type=#relicutil:mob,distance=0..25] run effect give @s slowness 30 2
