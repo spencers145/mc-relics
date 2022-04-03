@@ -11,6 +11,7 @@
 		"relics:the_thinking_cap/tick",
 		"relics:the_mining_helmet/tick",
 		"relics:explosive_crossbow/tick",
-		"relics:the_complete_chainmail/tick"
+		"relics:the_complete_chainmail/tick",
+		"relics:d6/cooldown"
 	]
 }

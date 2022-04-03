@@ -1,0 +1,1 @@
+scoreboard players remove @a d6 1

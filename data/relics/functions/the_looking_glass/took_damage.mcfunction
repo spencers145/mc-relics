@@ -1,0 +1,1 @@
+execute as @s[predicate=relics:lookingglass] at @s if entity @e[type=#relicutil:mob,distance=0..14] run function relics:the_looking_glass/retaliate

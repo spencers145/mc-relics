@@ -16,7 +16,7 @@
         ]
     ],
     "rewards": {
-        "function": "relics:solar_panel/took_damage"
+        "function": "relics:damage_diverge"
     },
     "parent": "relics:root"
 }

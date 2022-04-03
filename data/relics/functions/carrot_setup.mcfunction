@@ -55,6 +55,7 @@ scoreboard objectives add lastSprintingValue dummy
 scoreboard objectives add buttonTimer dummy
 scoreboard objectives add altButtonTimer dummy
 scoreboard objectives add invTimer dummy
+scoreboard objectives add d6 dummy
 team add undead
 team add hostile
 team modify undead color dark_red
