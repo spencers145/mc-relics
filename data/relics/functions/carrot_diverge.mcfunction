@@ -9,3 +9,5 @@ execute as @s[nbt={SelectedItem:{tag:{emergencyRadio:1b}}}] at @s run function r
 execute as @s[nbt={SelectedItem:{tag:{magicCarpet:1b}}}] run function relics:magic_carpet/toggle
 execute as @s[nbt={SelectedItem:{tag:{d6:1b}}}] at @s run function relics:d6/use
 execute as @s[nbt={Inventory:[{tag:{d6:1b}, Slot:-106b}]}] at @s run function relics:d6/use
+execute as @s[nbt={SelectedItem:{tag:{d20:1b}}}] at @s run function relics:d20/use
+execute as @s[nbt={Inventory:[{tag:{d20:1b}, Slot:-106b}]}] at @s run function relics:d20/use
