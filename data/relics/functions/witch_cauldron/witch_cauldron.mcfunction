@@ -1,2 +1,1 @@
-execute as @a store result score @s temp run clear @s cauldron{witchCauldron:1b} 0
-execute as @a if score @s temp matches 1.. run function relics:witch_cauldron/roll_the_dice
+give @s cauldron{display:{Name:'[{"text":"Witch\'s","italic":false,"color":"dark_green","bold":true},{"text":" Cauldron","color":"gray"}]',Lore:['[{"text":"Something\'s brewing...","italic":false}]','[{"text":"","italic":false}]','[{"text":"- Sometimes fill","italic":false,"color":"light_purple"}]','[{"text":"bottles with potions","italic":false,"color":"light_purple"}]']},Enchantments:[{}],witchCauldron:1b,relic:1b} 1
