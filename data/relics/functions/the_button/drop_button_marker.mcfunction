@@ -4,3 +4,4 @@ execute as @e[type=marker,tag=buttonmarker] run function relics:the_button/kill_
 summon marker ~ ~ ~ {Tags:[buttonmarker,fresh]}
 data modify entity @e[type=marker,distance=0..1,tag=fresh,limit=1] data.OwnerUUID set from entity @s UUID[0]
 tag @e[type=marker,tag=fresh,distance=0..1] remove fresh
+forceload add ~ ~ ~ ~
