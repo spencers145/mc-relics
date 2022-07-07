@@ -13,6 +13,7 @@
 		"relics:explosive_crossbow/tick",
 		"relics:the_complete_chainmail/tick",
 		"relics:d6/cooldown",
-		"relics:d20/cooldown"
+		"relics:d20/cooldown",
+		"relics:capers_cloak/tick"
 	]
 }
