@@ -1,5 +1,1 @@
-execute at @s positioned ^ ^ ^1 if block ~ ~ ~ air run spreadplayers ~ ~ 0 1 false @s
-execute at @s positioned ^ ^ ^1 if block ~ ~ ~ air run spreadplayers ~ ~ 0 1 false @s
-execute at @s positioned ^ ^ ^1 if block ~ ~ ~ air run spreadplayers ~ ~ 0 1 false @s
-execute at @s positioned ^ ^ ^1 if block ~ ~ ~ air run spreadplayers ~ ~ 0 1 false @s
-execute at @s positioned ^ ^ ^1 if block ~ ~ ~ air run spreadplayers ~ ~ 0 1 false @s
+give @s carrot_on_a_stick{Unbreakable:1,display:{Name:'[{"text":"Caper\'s ","italic":false,"color":"gray","bold":true},{"text":"Cloak","color":"dark_gray"}]',Lore:['[{"text":"A thieve\'s best friend.","italic":false}]','[{"text":"","italic":false}]','[{"text":"- right click to enter","italic":false,"color":"light_purple"}]','[{"text":"spectator mode for 0.6s","italic":false,"color":"light_purple"}]','[{"text":"- your cloak will fail","italic":false,"color":"light_purple"}]','[{"text":"if your destination has","italic":false,"color":"light_purple"}]','[{"text":"too little space","italic":false,"color":"light_purple"}]','[{"text":"- 5s cooldown","italic":false,"color":"light_purple"}]']},HideFlags:4,capersCloak:1b,relic:1b} 1

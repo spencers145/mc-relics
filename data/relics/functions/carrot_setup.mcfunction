@@ -57,6 +57,7 @@ scoreboard objectives add altButtonTimer dummy
 scoreboard objectives add invTimer dummy
 scoreboard objectives add d6 dummy
 scoreboard objectives add d20 dummy
+scoreboard objectives add capersCloak dummy
 team add undead
 team add hostile
 team modify undead color dark_red
