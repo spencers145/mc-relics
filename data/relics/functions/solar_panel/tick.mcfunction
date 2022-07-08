@@ -1,3 +1,3 @@
-execute as @s[predicate=relicutil:inlight] run function relics:solar_panel/charge
-execute if score @s solarPanelDrainTimer matches 2.. as @s[predicate=!relicutil:inlight] run function relics:solar_panel/drain
-execute as @s[scores={solarPanel=50..}] run function relics:solar_panel/give_effects
+scoreboard players add @a solarPanelDrainTimer 1
+execute as @a[predicate=relics:solarpanel] run function relics:solar_panel/player_tick
+execute as @a[predicate=!relics:solarpanel,scores={solarPanel=1..}] run scoreboard players set @s solarPanel 0

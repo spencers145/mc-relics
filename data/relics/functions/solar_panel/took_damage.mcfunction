@@ -1,1 +1,1 @@
-execute as @s[scores={solarPanel=95..}] run function relicutil:kamikaze
+execute as @s[scores={solarPanel=95..}] run function relics:solar_panel/kamikaze
