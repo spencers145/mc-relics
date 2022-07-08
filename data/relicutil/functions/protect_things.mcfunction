@@ -1,1 +1,1 @@
-execute at @s as @e[type=#relicutil:protect_from_explosion,distance=0..8] run function relicutil:protectme
+execute at @s as @e[type=#relicutil:protect_from_explosion,distance=0..16] run function relicutil:protectme

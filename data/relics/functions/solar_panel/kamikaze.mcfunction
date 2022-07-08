@@ -1,6 +1,7 @@
 execute at @s run effect give @a[distance=0..10] resistance 1 5 true
 execute at @s run effect give @s resistance 2 5 false
 execute at @s run effect give @s slow_falling 10 0 false
+execute at @s run function relicutil:protect_things
 execute at @s run effect give @e[type=cat,distance=0..10] resistance 1 5 true
 execute at @s run effect give @e[type=axolotl,distance=0..10] resistance 1 5 true
 execute at @s run effect give @e[type=wolf,distance=0..10] resistance 1 5 true
