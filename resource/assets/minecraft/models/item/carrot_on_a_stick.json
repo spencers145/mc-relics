@@ -12,6 +12,7 @@
         { "predicate": { "damaged": 0, "damage": 0.20 }, "model": "item/magic_carpet" },
 		{ "predicate": { "damaged": 0, "damage": 0.24 }, "model": "item/d6" },
 		{ "predicate": { "damaged": 0, "damage": 0.28 }, "model": "item/d20" },
+		{ "predicate": { "damaged": 0, "damage": 0.32 }, "model": "item/capers_cloak" },
 		{ "predicate": { "damaged": 1 }, "model": "item/carrot_on_a_stick" }
 	]
 }
