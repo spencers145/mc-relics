@@ -1,0 +1,1 @@
+execute as @s[predicate=relics:theturtle,predicate=relicutil:sneaking] at @s run function relics:the_turtle/activate
