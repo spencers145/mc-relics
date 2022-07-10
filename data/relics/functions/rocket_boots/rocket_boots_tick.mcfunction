@@ -1,4 +1,4 @@
-execute as @s[predicate=relicutil:sneaking,nbt={OnGround:1b}] unless entity @s[scores={rocketBootsActive=1..20}] run function relics:rocket_boots/rocket_boots_increment
+execute as @s[predicate=relicutil:sneaking,predicate=relicutil:onground] unless entity @s[scores={rocketBootsActive=1..20}] run function relics:rocket_boots/rocket_boots_increment
 scoreboard players remove @s rocketBoots 2
 execute as @s[scores={rocketBoots=..-1}] run scoreboard players set @s rocketBoots 0
 execute if entity @s[scores={rocketBoots=20}] run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 1 2

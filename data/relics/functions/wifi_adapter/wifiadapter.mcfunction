@@ -1,2 +1,0 @@
-execute as @a[nbt={Inventory:[{tag:{wifiAdapter:1b}}]},nbt=!{ActiveEffects:[{Id:10b}]}] run effect give @s regeneration 5 0 true
-execute as @a[nbt={Inventory:[{tag:{wifiAdapter:1b}}]}] run effect give @s resistance 5 0 true

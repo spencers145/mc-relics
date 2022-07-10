@@ -1,2 +1,2 @@
 execute if block ~ ~ ~ lava if entity @s[predicate=!relicutil:hasfireres] run function relics:sub_zero_slippers/lava_bail
-execute if entity @s[nbt={OnGround:1b}] run function relics:sub_zero_slippers/check_below
+execute if entity @s[predicate=relicutil:onground] run function relics:sub_zero_slippers/check_below
