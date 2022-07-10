@@ -1,0 +1,1 @@
+execute as @s[scores={fireBow=1},predicate=relics:creeperbow] at @s run function relics:creeper_bow/on_fire_bow

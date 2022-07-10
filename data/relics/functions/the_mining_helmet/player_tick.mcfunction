@@ -1,0 +1,1 @@
+execute as @s[predicate=relics:themininghelmet] at @s run function relics:the_mining_helmet/mining_light

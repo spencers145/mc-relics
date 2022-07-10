@@ -1,1 +1,2 @@
-execute as @a[predicate=relics:completechainmail] at @s positioned ~ ~1 ~ as @e[type=#relicutil:projectile] run function relics:the_complete_chainmail/tick_projectile
+execute as @a store result score @s temp run clear @s chainmail_chestplate{completeChainmail:1b} 0
+execute as @a at @s if score @s temp matches 1.. run function relics:the_complete_chainmail/player_tick
