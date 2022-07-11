@@ -1,2 +1,2 @@
 execute store result score creeperBowPUUID temp run data get entity @s UUID[0]
-execute as @e[distance=0..5,type=arrow, tag=!creeperexplosive, predicate=!relics:inground] run function relics:creeper_bow/test_arrow
+execute as @e[distance=0..5,type=arrow, tag=!creeperexplosive, predicate=!relicutil:inground] run function relics:creeper_bow/test_arrow
