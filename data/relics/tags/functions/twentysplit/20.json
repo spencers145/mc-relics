@@ -5,6 +5,7 @@
 		"relics:solar_panel/tick",
 		"relics:heart_of_fire/tick",
 		"relics:creep_r_gone/anticreeper",
-		"relics:the_magic_coal/the_magic_coal"
+		"relics:the_magic_coal/the_magic_coal",
+		"relics:pair_of_pies/tick"
 	]
 }
